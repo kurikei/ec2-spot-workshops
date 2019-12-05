@@ -1,10 +1,10 @@
 {
   "IamInstanceProfile": {
-    "Arn": "%instanceProfile%"
+    "Arn": "arn:aws:iam::391984270049:instance-profile/runningAmazonEC2WorkloadsAtScale-instanceProfile-1TSMD3X3YSZL2"
   },
-  "ImageId": "%ami-id%",
+  "ImageId": "ami-082b5a644766e0e6f",
   "SecurityGroupIds": [
-    "%instanceSecurityGroup%"
+    "sg-0ffa8673a51679249"
   ],
   "TagSpecifications": [
     {
@@ -21,5 +21,5 @@
       ]
     }
   ],
-  "UserData": "%UserData%"
+  "UserData": "I2Nsb3VkLWNvbmZpZwpyZXBvX3VwZGF0ZTogdHJ1ZQpyZXBvX3VwZ3JhZGU6IGFsbAoKcGFja2FnZXM6CiAgLSB3Z2V0CiAgLSBydWJ5CiAgLSBjdXJsCiAgLSBhbWF6b24tZWZzLXV0aWxzCgpydW5jbWQ6CiAgLSBbIHNoLCAtYywgImN1cmwgaHR0cHM6Ly9hd3MtY29kZWRlcGxveS11cy13ZXN0LTIuczMuYW1hem9uYXdzLmNvbS9sYXRlc3QvaW5zdGFsbCAtbyAvaG9tZS9lYzItdXNlci9pbnN0YWxsIiBdCiAgLSBbIHNoLCAtYywgImNobW9kICt4IC9ob21lL2VjMi11c2VyL2luc3RhbGwiIF0KICAtIFsgc2gsIC1jLCAiLi9ob21lL2VjMi11c2VyL2luc3RhbGwgYXV0byIgXQogIC0gWyBzaCwgLWMsICJzeXN0ZW1jdGwgZW5hYmxlIGNvZGVkZXBsb3ktYWdlbnQuc2VydmljZSIgXQogIC0gWyBzaCwgLWMsICJzeXN0ZW1jdGwgc3RhcnQgY29kZWRlcGxveS1hZ2VudC5zZXJ2aWNlIiBdCiAgLSBbIHNoLCAtYywgIm1rZGlyIC1wIC92YXIvd3d3L21lZGlhIiBdCiAgLSBbIHNoLCAtYywgImVjaG8gJ2ZzLTE3YjE0YmJkOi8gL3Zhci93d3cvbWVkaWEgZWZzIHRscyxfbmV0ZGV2JyA+PiAvZXRjL2ZzdGFiIiBdCiAgLSBbIHNoLCAtYywgIm1vdW50IC1hIC10IGVmcyBkZWZhdWx0cyIgXQogIC0gWyBzaCwgLWMsICJjaG93biAtUiBlYzItdXNlci4gL3Zhci93d3cvbWVkaWEiIF0KCgo="
 }
