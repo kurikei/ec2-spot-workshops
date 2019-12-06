@@ -1,11 +1,11 @@
 {
   "Name": "runningAmazonEC2WorkloadsAtScale",
   "Subnets": [
-    "subnet-042fc31e14902ce79",
-    "subnet-04d1c933f20eabb80"
+    "%publicSubnet1%",
+    "%publicSubnet2%"
   ],
   "SecurityGroups": [
-    "sg-0a94cd75170b6f3c8"
+    "%loadBalancerSecurityGroup%"
   ],
   "Scheme": "internet-facing",
   "Tags": [
